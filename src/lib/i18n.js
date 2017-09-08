@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 (function() {
 React = window.React;
 // Perseus running in local mode depends on $_, which is defined here

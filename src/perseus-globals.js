@@ -74,3 +74,11 @@ window.Exercises = {
     },
   },
 };
+
+window.Khan = {
+    Util: window.KhanUtil,
+    error: function() {},
+    query: {debug: ""},
+    imageBase: "/images/",
+};
+

@@ -1,5 +1,7 @@
 /*! KAS | https://github.com/Khan/KAS */
 // This is a @generated file
+/* eslint-disable */
+
 window.KAS = {};
 (function(KAS) {
 

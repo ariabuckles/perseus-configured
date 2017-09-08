@@ -2,6 +2,7 @@
 // commit 59761b1b8e4b14ac8d769a99b2419960c17d68fb
 // branch use-cj-mathinput
 // @generated
+/* eslint-disable */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("react"), require("underscore"), require("react-dom"), require("react-addons-create-fragment"), require("jquery"), require("aphrodite"), require("classnames"), require("react-addons-pure-render-mixin"), require("react-addons-css-transition-group"));
@@ -14770,7 +14771,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * Can wrap multiple components with the same dimensions at the same time;
 	 * these will be overlaid on top of each other.
-	 * 
+	 *
 	 * Usage:
 	 * <FixedToResponsive width={400} height={400}>
 	 *     <img src="bottom-layer.png" />
@@ -48559,7 +48560,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 	})();
-	
+
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
@@ -63020,7 +63021,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule AtomicBlockUtils
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -63092,7 +63093,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule BlockMapBuilder
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -63125,7 +63126,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule CharacterMetadata
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -63247,7 +63248,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule CompositeDraftDecorator
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -63370,7 +63371,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule ContentBlock
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -63501,7 +63502,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule ContentState
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -63669,7 +63670,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule DefaultDraftBlockRenderMap
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -63741,7 +63742,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule DefaultDraftInlineStyle
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -63783,7 +63784,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEditor.react
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -64251,7 +64252,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEditorBlock.react
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -64466,7 +64467,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftModifier
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -64594,7 +64595,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEntity
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -64694,7 +64695,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule DraftEntityInstance
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -64773,7 +64774,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule EditorState
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -65361,7 +65362,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule KeyBindingUtil
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -65405,7 +65406,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule RichTextEditorUtil
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -65717,7 +65718,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule SelectionState
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -65871,7 +65872,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule convertFromDraftStateToRaw
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -65948,7 +65949,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule convertFromHTMLToContentBlocks
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -66372,7 +66373,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule convertFromRawToDraftState
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -66450,7 +66451,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule generateRandomKey
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -66483,7 +66484,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getDefaultKeyBinding
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -66610,7 +66611,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getVisibleSelectionRect
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -67036,7 +67037,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var array = this._array;
 	      var maxIndex = array.length - 1;
 	      var ii = 0;
-	      return new Iterator(function() 
+	      return new Iterator(function()
 	        {return ii > maxIndex ?
 	          iteratorDone() :
 	          iteratorValue(type, ii, array[reverse ? maxIndex - ii++ : ii++])}
@@ -67507,7 +67508,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    Repeat.prototype.__iterator = function(type, reverse) {var this$0 = this;
 	      var ii = 0;
-	      return new Iterator(function() 
+	      return new Iterator(function()
 	        {return ii < this$0.size ? iteratorValue(type, ii++, this$0._value) : iteratorDone()}
 	      );
 	    };
@@ -69691,7 +69692,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return flipSequence;
 	      };
 	    }
-	    reversedSequence.get = function(key, notSetValue) 
+	    reversedSequence.get = function(key, notSetValue)
 	      {return iterable.get(useKeys ? key : -1 - key, notSetValue)};
 	    reversedSequence.has = function(key )
 	      {return iterable.has(useKeys ? key : -1 - key)};
@@ -69886,7 +69887,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        return this.cacheResult().__iterate(fn, reverse);
 	      }
 	      var iterations = 0;
-	      iterable.__iterate(function(v, k, c) 
+	      iterable.__iterate(function(v, k, c)
 	        {return predicate.call(context, v, k, c) && ++iterations && fn(v, k, this$0)}
 	      );
 	      return iterations;
@@ -70077,7 +70078,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    interposedSequence.size = iterable.size && iterable.size * 2 -1;
 	    interposedSequence.__iterateUncached = function(fn, reverse) {var this$0 = this;
 	      var iterations = 0;
-	      iterable.__iterate(function(v, k) 
+	      iterable.__iterate(function(v, k)
 	        {return (!iterations || fn(separator, iterations++, this$0) !== false) &&
 	        fn(v, iterations++, this$0) !== false},
 	        reverse
@@ -73221,7 +73222,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
-	 * Vector Utils 
+	 * Vector Utils
 	 * A vector is an array of numbers e.g. [0, 3, 4].
 	 */
 
@@ -79887,7 +79888,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule findRangesImmutable
-	 * 
+	 *
 	 */
 
 	/**
@@ -79934,7 +79935,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule sanitizeDraftText
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -79960,7 +79961,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule DraftEditorCompositionHandler
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -80129,7 +80130,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEditorContents.react
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -80375,7 +80376,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEditorDragHandler
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -80496,7 +80497,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule DraftEditorEditHandler
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -80545,7 +80546,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEditorPlaceholder.react
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -80626,7 +80627,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEditorLeaf.react
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -80806,7 +80807,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule DraftOffsetKey
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -80853,7 +80854,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule ContentStateInlineStyle
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -80931,7 +80932,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule applyEntityToContentState
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -80980,7 +80981,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getCharacterRemovalRange
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -81062,7 +81063,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getContentStateFragment
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81138,7 +81139,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule insertFragmentIntoContentState
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81265,7 +81266,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule insertTextIntoContentState
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81322,7 +81323,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule removeEntitiesAtEdges
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81428,7 +81429,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule removeRangeFromContentState
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81525,7 +81526,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule setBlockTypeForContentState
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81567,7 +81568,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule splitBlockInContentState
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81634,7 +81635,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule BlockTree
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81751,7 +81752,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule EditorBidiService
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81803,7 +81804,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule adjustBlockDepthForContentState
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81847,7 +81848,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftStringKey
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81878,7 +81879,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule encodeEntityRanges
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81923,7 +81924,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule encodeInlineStyleRanges
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -81996,7 +81997,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule getSafeBodyFromHTML
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -82037,7 +82038,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule createCharacterList
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -82071,7 +82072,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule decodeEntityRanges
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -82115,7 +82116,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule decodeInlineStyleRanges
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -82163,7 +82164,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getRangeBoundingClientRect
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -84736,7 +84737,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getEntityKeyForSelection
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -84798,7 +84799,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule isSelectionAtLeafStart
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -84852,7 +84853,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule findAncestorOffsetKey
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -84888,7 +84889,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule getTextContentFromFiles
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -84969,7 +84970,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule getUpdatedSelectionState
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85049,7 +85050,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnBeforeInput
-	 * 
+	 *
 	 */
 
 	// When nothing is focused, Firefox regards two characters, `'` and `/`, as
@@ -85172,7 +85173,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnBlur
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85222,7 +85223,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnCompositionStart
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85254,7 +85255,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnCopy
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85294,7 +85295,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnCut
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85372,7 +85373,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnDragOver
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85401,7 +85402,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnDragStart
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85429,7 +85430,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnFocus
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85470,7 +85471,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnInput
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85617,7 +85618,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnKeyDown
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85768,7 +85769,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnPaste
-	 * 
+	 *
 	 */
 
 	/**
@@ -85914,7 +85915,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule editOnSelect
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -85959,7 +85960,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEditorTextNode.react
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -86078,7 +86079,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule setDraftEditorSelection
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -86217,7 +86218,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule applyEntityToContentBlock
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -86249,7 +86250,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftEntitySegments
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -86353,7 +86354,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getRangesForDraftEntity
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -86396,7 +86397,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule insertIntoList
-	 * 
+	 *
 	 */
 
 	/**
@@ -86437,7 +86438,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getRangeClientRects
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -87664,7 +87665,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * 
+	 *
 	 */
 
 	function makeEmptyFunction(arg) {
@@ -87707,7 +87708,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * 
+	 *
 	 */
 
 	var nullthrows = function nullthrows(x) {
@@ -87784,7 +87785,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -87945,7 +87946,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -88108,7 +88109,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * LICENSE file in the root directory of this source tree. An additional grant
 	   * of patent rights can be found in the PATENTS file in the same directory.
 	   *
-	   * 
+	   *
 	   * @typechecks
 	   */
 
@@ -88219,7 +88220,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -88566,7 +88567,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -89429,7 +89430,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getSelectionOffsetKeyForNode
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89495,7 +89496,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule getFragmentFromSelection
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89524,7 +89525,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule SecondaryClipboard
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89598,7 +89599,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandBackspaceToStartOfLine
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89647,7 +89648,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandBackspaceWord
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89699,7 +89700,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandDeleteWord
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89749,7 +89750,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandInsertNewline
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89777,7 +89778,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandPlainBackspace
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89826,7 +89827,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandPlainDelete
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89876,7 +89877,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandMoveSelectionToEndOfBlock
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89918,7 +89919,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandMoveSelectionToStartOfBlock
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -89960,7 +89961,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandTransposeCharacters
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -90043,7 +90044,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule keyCommandUndo
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -90097,7 +90098,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftPasteProcessor
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -90147,7 +90148,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule splitTextIntoTextBlocks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -90174,7 +90175,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getDraftEditorSelection
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/**
@@ -90216,7 +90217,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * 
+	 *
 	 */
 
 	var isTextNode = __webpack_require__(423);
@@ -91536,7 +91537,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * 
+	 *
 	 * @typechecks static-only
 	 */
 
@@ -93426,7 +93427,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule expandRangeToStartOfLine
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -93620,7 +93621,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule getDraftEditorSelectionWithNodes
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -93802,7 +93803,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule moveSelectionBackward
-	 * 
+	 *
 	 */
 
 	/**
@@ -93859,7 +93860,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule removeTextWithStrategy
-	 * 
+	 *
 	 */
 
 	/**
@@ -93907,7 +93908,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @providesModule DraftRemovableWord
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -93962,7 +93963,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule moveSelectionForward
-	 * 
+	 *
 	 */
 
 	/**
@@ -95306,7 +95307,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * @typechecks
 	 * @stub
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -96888,7 +96889,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {module.exports = __webpack_amd_options__;
-	
+
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ },
