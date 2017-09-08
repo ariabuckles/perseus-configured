@@ -2,7 +2,7 @@
   "name": "perseus-configured",
   "version": "0.1.0",
   "description": "perseus, with fewer global deps",
-  "main": "index.js",
+  "main": "lib/perseus-configured.js",
   "repository": "git@github.com:ariabuckles/perseus-configured.git",
   "author": "Aria Buckles <aria@classjourney.org>",
   "license": "MIT",
