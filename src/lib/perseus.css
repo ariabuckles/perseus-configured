@@ -1,11 +1,12 @@
 /* Perseus CSS
-// commit 59761b1b8e4b14ac8d769a99b2419960c17d68fb
-// branch use-cj-mathinput
+// commit d23bbe0c89497660bf638dacded73b6ea7f848a6
+// branch wip
 // @generated
 */
 .perseus-sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
+  font-size: 0;
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -85,6 +86,9 @@
   line-height: 30px;
   margin-bottom: 32px;
   margin-top: 0;
+}
+.bibliotron-article.framework-perseus.perseus-article:not(.perseus-mobile) .perseus-renderer > .paragraph .paragraph .katex {
+  font-size: 100%;
 }
 .bibliotron-article.framework-perseus.perseus-article:not(.perseus-mobile) .perseus-renderer > .paragraph ul:not(.perseus-widget-radio) {
   color: #21242c;
@@ -195,8 +199,35 @@
   line-height: 1.5;
   margin: 0;
 }
-.bibliotron-article.framework-perseus.perseus-article.perseus-mobile div.paragraph,
-.framework-perseus:not(.perseus-article).perseus-mobile div.paragraph {
+.framework-perseus:not(.perseus-article):not(.perseus-mobile) .perseus-radio-option-content .perseus-renderer > .paragraph {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #21242c;
+}
+.framework-perseus:not(.perseus-article):not(.perseus-mobile) .perseus-radio-option-content .perseus-renderer > .paragraph .paragraph {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #21242c;
+}
+.framework-perseus:not(.perseus-article):not(.perseus-mobile) .perseus-radio-rationale-content .perseus-renderer > .paragraph {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #888d93;
+}
+.framework-perseus:not(.perseus-article):not(.perseus-mobile) .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #888d93;
+}
+.framework-perseus:not(.perseus-article):not(.perseus-mobile) .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph .katex {
+  color: #888d93;
+}
+.bibliotron-article.framework-perseus.perseus-article.perseus-mobile :not(blockquote) > div.paragraph,
+.framework-perseus:not(.perseus-article).perseus-mobile :not(blockquote) > div.paragraph {
   margin: 0;
 }
 .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-renderer > .paragraph,
@@ -334,6 +365,38 @@
     line-height: 1.4;
     color: #626569;
   }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #21242c;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph .paragraph {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #21242c;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #888d93;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #888d93;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph .katex,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph .katex {
+    color: #888d93;
+  }
   .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-image-caption .paragraph .paragraph,
   .framework-perseus:not(.perseus-article).perseus-mobile .perseus-image-caption .paragraph .paragraph {
     color: #888d93;
@@ -466,6 +529,38 @@
     line-height: 1.5;
     color: #626569;
   }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph {
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #21242c;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph .paragraph {
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #21242c;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph {
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #888d93;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph {
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #888d93;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph .katex,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph .katex {
+    color: #888d93;
+  }
   .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-image-caption .paragraph .paragraph,
   .framework-perseus:not(.perseus-article).perseus-mobile .perseus-image-caption .paragraph .paragraph {
     color: #888d93;
@@ -597,6 +692,38 @@
     font-size: 22px;
     line-height: 1.4;
     color: #626569;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #21242c;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-option-content .perseus-renderer > .paragraph .paragraph {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #21242c;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #888d93;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #888d93;
+  }
+  .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph .katex,
+  .framework-perseus:not(.perseus-article).perseus-mobile .perseus-radio-rationale-content .perseus-renderer > .paragraph .paragraph .katex {
+    color: #888d93;
   }
   .bibliotron-article.framework-perseus.perseus-article.perseus-mobile .perseus-image-caption .paragraph .paragraph,
   .framework-perseus:not(.perseus-article).perseus-mobile .perseus-image-caption .paragraph .paragraph {
@@ -1524,12 +1651,11 @@ body.mobile .perseus-matrix .math-output {
 }
 .perseus-widget-passage-container .perseus-widget-passage {
   line-height: 22px;
-  margin: 22px 0 22px 45px;
+  margin: 22px;
   position: relative;
-  width: 420px;
 }
 .perseus-widget-passage-container .perseus-widget-passage div.paragraph {
-  font-family: Times, "Times New Roman", serif;
+  font-family: KaTeX_Main, Times, "Times New Roman", serif;
 }
 .perseus-widget-passage-container .katex {
   line-height: 20px;
@@ -1571,10 +1697,13 @@ body.mobile .perseus-matrix .math-output {
   font-size: 12px;
   font-style: italic;
   font-weight: 600;
-  left: -40px;
   position: absolute;
   text-align: right;
-  width: 25px;
+  max-height: 100%;
+  overflow: hidden;
+  padding-right: 12px;
+  left: -52px;
+  width: 37px;
 }
 .perseus-widget-passage-container .line-numbers span {
   display: block;
@@ -1628,6 +1757,13 @@ body.sat-section .perseus-widget-passage {
 .perseus-widget-radio.perseus-rendered-radio div > p {
   /* TODO(alpert): Find a better way of doing inline renderers */
   display: inline;
+}
+.perseus-widget-radio.perseus-rendered-radio .perseus-radio-rationale-content > .perseus-renderer > .paragraph {
+  display: table;
+  margin: 0;
+}
+.perseus-widget-radio.perseus-rendered-radio .perseus-radio-rationale-content > .perseus-renderer > .paragraph:not(:last-child) {
+  margin-bottom: 8px;
 }
 .perseus-widget-radio .unresponsive-svg-image div,
 .perseus-widget-radio .svg-image div {
@@ -1711,6 +1847,7 @@ body.sat-section .perseus-widget-passage {
   -moz-user-select: none;
   -o-user-select: none;
   cursor: pointer;
+  touch-action: none;
 }
 .draggy-boxy-thing .card.placeholder {
   background: #ddd;
@@ -1851,90 +1988,6 @@ body.mobile .framework-perseus table.perseus-widget-table-of-values.non-markdown
 }
 .unit-editor > div {
   margin: 5px 0;
-}
-.perseus-diff {
-  margin: 0 10px;
-}
-.perseus-diff .diff-header {
-  font-size: 18px;
-  padding: 10px 0;
-  width: 50%;
-  display: inline-block;
-}
-.perseus-diff .diff-header.collapsed {
-  font-size: 14px;
-  padding: 0px;
-}
-.perseus-diff .diff-body {
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
-}
-.perseus-diff .diff-row {
-  width: 50%;
-  white-space: pre-wrap;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  font-size: 14px;
-  padding-right: 20px;
-  padding-left: 10px;
-  overflow: hidden;
-}
-.perseus-diff .diff-row.collapsed {
-  color: #888;
-  cursor: pointer;
-}
-.perseus-diff .diff-row.collapsed:hover {
-  color: #666;
-}
-.perseus-diff .diff-row.collapsed:active {
-  color: #444;
-}
-.perseus-diff .diff-row .diff-line {
-  margin-bottom: 20px;
-}
-.perseus-diff .before {
-  float: left;
-  border-left: 1px solid #e4e4e4;
-}
-.perseus-diff .after {
-  float: right;
-  border-right: 1px solid #e4e4e4;
-  border-left: 1px solid #e4e4e4;
-}
-.perseus-diff .inner-value {
-  height: 100%;
-  padding: 3px;
-}
-.perseus-diff .not-present {
-  display: none;
-}
-.perseus-diff .blank-space {
-  visibility: hidden;
-}
-.perseus-diff .added {
-  background-color: #EEFFEE;
-}
-.perseus-diff .added.dark {
-  background-color: #AAFFAA;
-}
-.perseus-diff .removed {
-  background-color: #FFEEEE;
-}
-.perseus-diff .removed.dark {
-  background-color: #FFAAAA;
-}
-.perseus-diff .image {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-.perseus-diff .image-unchanged {
-  border: 1px solid #AAAAAA;
-}
-.perseus-diff .image-added {
-  border: 2px solid #AAFFAA;
-}
-.perseus-diff .image-removed {
-  border: 2px solid #FFAAAA;
 }
 .perseus-widget-container.widget-nohighlight {
   transition: all 0.15s;
@@ -2328,209 +2381,4 @@ body.mobile .framework-perseus table.perseus-widget-table-of-values.non-markdown
   }
 }
 /* math-input CSS */
-/**
- * Styles for managing the popover animations. These were generated by
- * Aphrodite's autoprefixer, but some minor tweaks were applied to get them
- * working on mobile Safari. Ideally, we'd be generating these styles with
- * Aphrodite (along with ReactCSSTransitionGroup's support for custom
- * classnames), but the generated styles have issues on mobile Safari.
- *   See: https://github.com/Khan/aphrodite/issues/68.
- *
- * If the animation durations change, the corresponding values in
- * popover-manager.js must change as well.
- */
-
-.popover-enter {
-    opacity: 0 !important;
-}
-
-.popover-enter.popover-enter-active {
-    opacity: 1 !important;
-    transition: opacity 200ms ease-out !important;
-    -webkit-transition: opacity 200ms ease-out !important;
-    -moz-transition: opacity 200ms ease-out !important;
-    -ms-transition: opacity 200ms ease-out !important;
-}
-
-/**
-* Styles for managing the echo animations. These were generated by Aphrodite's
-* autoprefixer, but some minor tweaks were applied to get them working on mobile
-* Safari. Ideally, we'd be generating these styles with Aphrodite (along with
-* ReactCSSTransitionGroup's support for custom classnames), but the generated
-* styles have issues on mobile Safari.
-*   See: https://github.com/Khan/aphrodite/issues/68.
-*
- * If the animation durations change, the corresponding values in
- * echo-manager.js must change as well.
- */
-
-/* Variant A: Slide and fade. */
-
-.echo-slide-and-fade-enter {
-    opacity: 1 !important;
-    transform: translate3d(0, 0, 0) !important;
-    -webkit-transform: translate3d(0, 0, 0) !important;
-    -moz-transform: translate3d(0, 0, 0) !important;
-    -ms-transform: translate3d(0, 0, 0) !important;
-}
-
-.echo-slide-and-fade-enter.echo-slide-and-fade-enter-active {
-    opacity: 0 !important;
-    transform: translate3d(0, -33%, 0) !important;
-    -webkit-transform: translate3d(0, -33%, 0) !important;
-    -moz-transform: translate3d(0, -33%, 0) !important;
-    -ms-transform: translate3d(0, -33%, 0) !important;
-
-    /**
-     * TODO(charlie): These times are intentionally different, which means that
-     * the animation really "ends" after 400ms cubic-bezier(1, 0, 0.9, 1) (since
-     * the opacity goes to 0), even though the transform doesn't complete.
-     * There's probably a way to achieve the same effect by manipulating the
-     * transform's Bezier curve and total displacement.
-     */
-    transition: -webkit-transform 800ms cubic-bezier(0, 1, 0.25, 1),-moz-transform 800ms cubic-bezier(0, 1, 0.25, 1),-ms-transform 800ms cubic-bezier(0, 1, 0.25, 1),transform 800ms cubic-bezier(0, 1, 0.25, 1), opacity 400ms cubic-bezier(1, 0, 0.9, 1) !important;
-    -webkit-transform: translate3d(0, -33%, 0) !important;
-    -moz-transform: translate3d(0, -33%, 0) !important;
-    -ms-transform: translate3d(0, -33%, 0) !important;
-    -webkit-transition: -webkit-transform 800ms cubic-bezier(0, 1, 0.25, 1),transform 800ms cubic-bezier(0, 1, 0.25, 1), opacity 400ms cubic-bezier(1, 0, 0.9, 1) !important;
-    -moz-transition: -moz-transform 800ms cubic-bezier(0, 1, 0.25, 1),transform 800ms cubic-bezier(0, 1, 0.25, 1), opacity 400ms cubic-bezier(1, 0, 0.9, 1) !important;
-    -ms-transition: -ms-transform 800ms cubic-bezier(0, 1, 0.25, 1),transform 800ms cubic-bezier(0, 1, 0.25, 1), opacity 400ms cubic-bezier(1, 0, 0.9, 1) !important;
-}
-
-/* Variant B: Fade, but don't slide. */
-
-.echo-fade-only-enter {
-    opacity: 1 !important;
-}
-
-.echo-fade-only-enter.echo-fade-only-enter-active {
-    opacity: 0 !important;
-    transition: opacity 300ms cubic-bezier(0.25, 0, 0.75, 1) !important;
-    -webkit-transition: opacity 300ms cubic-bezier(0.25, 0, 0.75, 1) !important;
-    -moz-transition: opacity 300ms cubic-bezier(0.25, 0, 0.75, 1) !important;
-    -ms-transition: opacity 300ms cubic-bezier(0.25, 0, 0.75, 1) !important;
-}
-
-/* Variant C: Fade for a longer duration, but again, don't slide. */
-
-.echo-long-fade-only-enter {
-    opacity: 1 !important;
-}
-
-.echo-long-fade-only-enter.echo-long-fade-only-enter-active {
-    opacity: 0 !important;
-    transition: opacity 400ms cubic-bezier(0.75, 0, 0.75, 1) !important;
-    -webkit-transition: opacity 400ms cubic-bezier(0.75, 0, 0.75, 1) !important;
-    -moz-transition: opacity 400ms cubic-bezier(0.75, 0, 0.75, 1) !important;
-    -ms-transition: opacity 400ms cubic-bezier(0.75, 0, 0.75, 1) !important;
-}
-
-.keypad-input .mq-editable-field .mq-cursor:not(:only-child),
-.keypad-input .mq-editable-field .mq-root-block.mq-hasCursor > .mq-cursor:only-child
- {
-    /* HACK(charlie): Magic numbers to properly size and position the vertical
-       cursor, which is visible whenever the cursor is not alone in its parent,
-       with the exception that it's also visible when the entire input is
-       empty. */
-    height: 20px !important;
-    vertical-align: middle !important;
-    margin-top: -5px !important;
-}
-
-.keypad-input .mq-editable-field .mq-cursor {
-    border-color: #78c008;
-
-    border-left: 2px solid #78c008 !important;
-    border-radius: 1px;
-
-    margin-left: -1px !important;
-    margin-right: -1px !important;
-
-    /* Fade the cursor in and out, overriding MathQuill's default behavior. */
-    /* NOTE(charlie): The 500ms animation length perfectly matches MathQuill's
-       own frequency for toggling the application of the .mq-blink class. If we
-       were to change this animation length at all, we'd need to modify
-       MathQuill as well to match. */
-    visibility: visible !important;
-    opacity: 1 !important;
-    transition: opacity 500ms ease-out !important;
-}
-
-.keypad-input .mq-editable-field .mq-cursor.mq-blink {
-    visibility: visible !important;
-    opacity: 0 !important;
-    transition: opacity 500ms ease-in !important;
-}
-
-.keypad-input .mq-editable-field .mq-non-leaf .mq-cursor:only-child {
-    border: 2px solid !important;
-    padding: 0 4px 0 4px;
-
-    border-color: #78c008 !important; /* bright-green color */
-    transition: border-color 500ms ease-out !important;
-    opacity: 1 !important;
-}
-
-.keypad-input .mq-editable-field .mq-non-leaf .mq-cursor.mq-blink:only-child {
-    border-color: #CCC !important; /* grey color */
-    transition: border-color 500ms ease-in !important;
-    opacity: 1 !important;
-}
-
-.keypad-input .mq-empty {
-  background: transparent !important;
-}
-
-/* also adds empty block styling to elements with .mq-hasCursor but without a cursor element (this happens where the cursor is when the math input loses focus) */
-.keypad-input .mq-empty:not(.mq-root-block):after, .keypad-input .mq-hasCursor:empty:not(.mq-root-block):after {
-  visibility: visible !important;
-
-  /* hides the 'c' content added by MathQuill to measure the width */
-  color: transparent;
-
-  display: inline-block;
-  border: 2px solid #ccc;
-  border-radius: 1px;
-  padding: 0 4px 0 4px;
-  margin-left: -1px;
-  margin-right: -1px;
-}
-
-.keypad-input .mq-selection .mq-empty:not(.mq-root-block):after {
-  border-color: #ffffff;
-}
-
-.keypad-input .mq-hasCursor:empty:not(.mq-root-block):after {
-  /* place a c inside for sizing the cursor (for the case explained above); normally, MathQuill already does this for .mq-cursor */
-  content: 'c';
-}
-
-.keypad-input .mq-math-mode .mq-selection .mq-non-leaf,
-.keypad-input .mq-editable-field .mq-selection .mq-non-leaf
-{
-    background: #78c008 !important;
-    color: white !important;
-    border-color: white !important;
-}
-
-.keypad-input .mq-math-mode .mq-selection .mq-scaled,
-.keypad-input .mq-editable-field .mq-selection .mq-scaled
-{
-    background: transparent !important;
-    color: white !important;
-    border-color: transparent !important;
-}
-
-.keypad-input .mq-selection {
-    display: inline-block !important;
-    background: #78c008 !important;
-    color: white !important;
-    border-color: white !important;
-}
-
-// The keypad sets its own color styles for KaTeX elements that are rendered in
-// its keys, so prevent any external styling.
-.keypad-container .katex {
-    color: inherit !important;
-}
-
+.echo-slide-and-fade-enter{opacity:1!important;-webkit-transform:translate3d(0,0,0)!important;-moz-transform:translate3d(0,0,0)!important;transform:translate3d(0,0,0)!important}.echo-slide-and-fade-enter.echo-slide-and-fade-enter-active{opacity:0!important;-webkit-transform:translate3d(0,-33%,0)!important;-moz-transform:translate3d(0,-33%,0)!important;transform:translate3d(0,-33%,0)!important;-webkit-transition:opacity .4s cubic-bezier(1,0,.9,1),-webkit-transform .8s cubic-bezier(0,1,.25,1)!important;-moz-transition:transform .8s cubic-bezier(0,1,.25,1),opacity .4s cubic-bezier(1,0,.9,1),-moz-transform .8s cubic-bezier(0,1,.25,1)!important;transition:transform .8s cubic-bezier(0,1,.25,1),opacity .4s cubic-bezier(1,0,.9,1)!important;transition:transform .8s cubic-bezier(0,1,.25,1),opacity .4s cubic-bezier(1,0,.9,1),-webkit-transform .8s cubic-bezier(0,1,.25,1),-moz-transform .8s cubic-bezier(0,1,.25,1)!important}.echo-fade-only-enter{opacity:1!important}.echo-fade-only-enter.echo-fade-only-enter-active{opacity:0!important;-webkit-transition:opacity .3s cubic-bezier(.25,0,.75,1)!important;-moz-transition:opacity .3s cubic-bezier(.25,0,.75,1)!important;transition:opacity .3s cubic-bezier(.25,0,.75,1)!important}.echo-long-fade-only-enter{opacity:1!important}.echo-long-fade-only-enter.echo-long-fade-only-enter-active{opacity:0!important;-webkit-transition:opacity .4s cubic-bezier(.75,0,.75,1)!important;-moz-transition:opacity .4s cubic-bezier(.75,0,.75,1)!important;transition:opacity .4s cubic-bezier(.75,0,.75,1)!important}.keypad-input .mq-editable-field .mq-cursor:not(:only-child),.keypad-input .mq-editable-field .mq-root-block.mq-hasCursor>.mq-cursor:only-child{height:20px!important;margin-top:-5px!important;vertical-align:middle!important}.keypad-input .mq-editable-field .mq-cursor{border-color:#78C008;border-left:2px solid #78C008!important;margin-left:-1px!important;margin-right:-1px!important;opacity:1!important;-webkit-transition:opacity .5s ease-out!important;-moz-transition:opacity .5s ease-out!important;transition:opacity .5s ease-out!important;visibility:visible!important}.keypad-input .mq-editable-field .mq-cursor.mq-blink{opacity:0!important;-webkit-transition:opacity .5s ease-in!important;-moz-transition:opacity .5s ease-in!important;transition:opacity .5s ease-in!important;visibility:visible!important}.keypad-input .mq-editable-field .mq-non-leaf .mq-cursor:only-child{border:2px solid #78C008!important;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;opacity:1!important;padding:0 4px;-webkit-transition:border-color .5s ease-out!important;-moz-transition:border-color .5s ease-out!important;transition:border-color .5s ease-out!important}.keypad-input .mq-editable-field .mq-non-leaf .mq-cursor:only-child.mq-blink{border-color:#CCC!important;opacity:1!important;-webkit-transition:border-color .5s ease-in!important;-moz-transition:border-color .5s ease-in!important;transition:border-color .5s ease-in!important}.keypad-input .mq-empty{background:0 0!important}.keypad-input .mq-empty:not(.mq-root-block):after,.keypad-input .mq-hasCursor:empty:not(.mq-root-block):after{border:2px solid #CCC;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;color:transparent;display:inline-block;margin-left:-1px;margin-right:-1px;padding:0 4px;visibility:visible!important}.keypad-input .mq-selection .mq-empty:not(.mq-root-block):after{border-color:#fff}.keypad-input .mq-hasCursor:empty:not(.mq-root-block):after{content:'c'}.keypad-input .mq-editable-field .mq-selection .mq-non-leaf,.keypad-input .mq-math-mode .mq-selection .mq-non-leaf{background:#78C008!important;border-color:#fff!important;color:#fff!important}.keypad-input .mq-editable-field .mq-selection .mq-scaled,.keypad-input .mq-math-mode .mq-selection .mq-scaled{background:0 0!important;border-color:transparent!important;color:#fff!important}.keypad-input .mq-selection{background:#78C008!important;border-color:#fff!important;color:#fff!important;display:inline-block!important}.keypad-container .katex{color:inherit!important}.popover-enter{opacity:0!important}.popover-enter.popover-enter-active{opacity:1!important;-webkit-transition:opacity .2s ease-out!important;-moz-transition:opacity .2s ease-out!important;transition:opacity .2s ease-out!important}
