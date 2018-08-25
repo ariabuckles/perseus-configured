@@ -2,6 +2,7 @@
 // commit d23bbe0c89497660bf638dacded73b6ea7f848a6
 // branch wip
 // @generated
+/* eslint-disable */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("underscore"), require("react"), require("react-dom"), require("classnames"), require("aphrodite"), require("jquery"), require("react-addons-pure-render-mixin"), require("react-addons-css-transition-group"));
