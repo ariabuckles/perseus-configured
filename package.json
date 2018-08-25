@@ -7,7 +7,7 @@
   "author": "Aria Buckles <aria@classjourney.org>",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "REACT_EDITOR=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
