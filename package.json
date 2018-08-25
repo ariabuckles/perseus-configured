@@ -7,6 +7,10 @@
   "author": "Aria Buckles <aria@classjourney.org>",
   "license": "MIT",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
     "postinstall": "BABEL_ENV=production babel src --out-dir lib --copy-files"
   },
   "dependencies": {
@@ -27,13 +31,6 @@
   },
   "devDependencies": {
     "react-scripts": "1.0.13"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "postinstall": "BABEL_ENV=production babel src --out-dir lib --copy-files"
   },
   "babel": {
     "presets": [
