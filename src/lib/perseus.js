@@ -31424,7 +31424,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    onUrlChange: function onUrlChange(url, silent) {
 	        var _this3 = this;
 
-	        // All article content must be KA-owned!
+	        /*// All article content must be KA-owned!
 	        if (!INTERNALLY_HOSTED_URL_RE.test(url)) {
 	            this.setState({
 	                backgroundImageError: "Images must be from sites hosted by Khan Academy. " + "Please input a Khan Academy-owned address, or use the " + "Add Image tool to rehost an existing image"
@@ -31432,7 +31432,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            return;
 	        } else {
 	            this.setState({ backgroundImageError: "" });
-	        }
+	        }*/
 
 	        // We update our background image prop after the image loads below. To
 	        // avoid weirdness when we change to a very slow URL, then a much
