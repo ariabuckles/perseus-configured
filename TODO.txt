@@ -1,0 +1,2 @@
+Fix React createClass warnings
+Upgrade to React 16.x
