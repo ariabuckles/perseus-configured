@@ -18,7 +18,10 @@ import _ from "underscore";
 //       backfills and I'm not sure how reliable this is!
 React.createClass = createReactClass;
 React.PropTypes = PropTypes;
-React.DOM = ReactDOM;
+React.DOM = {
+  span: (props) => React.createElement("span", props),
+  input: (props) => React.createElement("input", props),
+};
 
 window.jQuery = window.$ = $;
 window.katex = katex;
