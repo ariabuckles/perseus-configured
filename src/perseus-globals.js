@@ -18,6 +18,7 @@ import _ from "underscore";
 //       backfills and I'm not sure how reliable this is!
 React.createClass = createReactClass;
 React.PropTypes = PropTypes;
+React.DOM = ReactDOM;
 
 window.jQuery = window.$ = $;
 window.katex = katex;
