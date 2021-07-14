@@ -4,9 +4,12 @@ import ReactDOM from 'react-dom';
 import mathquill from 'mathquill';
 import katex from 'katex';
 import classnames from 'classnames';
-import './lib/khan-exercises.css';
-import './lib/perseus.css';
 import _ from 'underscore';
+
+// NOTE: We don't import the CSS here. Instead, applications can do it separately:
+//       import "perseus-configured/lib/khan-exercises.css";
+//       import "perseus-configured/lib/perseus.css";
+// TODO: Consider a build step to make it one CSS file, and include Mathquill too?
 
 window.jQuery = (window.$ = $);
 window.katex = katex;
