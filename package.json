@@ -25,7 +25,7 @@
     "react-addons-create-fragment": "^15.4.2",
     "react-addons-css-transition-group": "^15.4.2",
     "react-addons-pure-render-mixin": "^15.4.2",
-    "mathquill": "git+https://github.com/luxp/mathquill-webpack.git#45340938c068373acc5e7525952fd6d89b11ac78",
+    "mathquill": "git+https://github.com/matchu/mathquill-webpack.git#ec117de79e26ebf7e4901d7ef54c3bbd1af076e6",
     "katex": "^0.7.1",
     "underscore": "^1.4.4"
   },
